@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Merlin Drive: Dodge the Duds</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: black;
+      font-family: monospace;
+      color: lime;
+    }
+    canvas {
+      display: block;
+      background: black;
+    }
+    #score {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 16px;
+      background: rgba(0,0,0,0.7);
+      padding: 5px 10px;
+      border: 1px solid lime;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+<div id="score">Score: 0</div>
+<canvas id="gameCanvas"></canvas>
+<script src="game.js"></script>
+</body>
+</html>
